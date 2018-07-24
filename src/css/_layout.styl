@@ -1,0 +1,67 @@
+body
+  background grey
+  color black
+
+.wrapper, .header
+  max-width 1000px
+  margin 0 auto
+  @media (max-width: 1000px)
+    padding 0 2rem
+
+.header
+  display flex
+  flex-wrap wrap
+  justify-content space-between
+  margin-bottom 2rem
+
+.header__left
+  width 30%
+
+.header__right
+  width 70%
+
+.nav-links 
+  display flex
+  list-style none
+  align-items stretch
+  flex-wrap wrap
+  justify-content flex-end
+  padding 0
+
+.nav-link
+  margin 0 10px
+
+.card
+  background-color white
+  border 1px solid black
+  display flex
+  flex-direction column
+  padding 1rem
+  margin 0 0 1rem 0
+
+label
+  display block
+  line-height 1.8
+  font-size 0.875rem
+
+[type="email"], [type="password"]
+  display block
+  margin 0 0 1rem
+  width 100%
+
+.col-4
+  padding-left 1rem
+  padding-right 1rem
+  float left
+  width 33.33333%
+  @media(max-width: 800px)
+    width 100%
+    padding 0
+
+h1, h2, h3, h4, h5, h6
+  line-height 1.4
+  font-weight 400
+  font-family "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif
+
+h2 
+  margin 0
